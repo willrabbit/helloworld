@@ -1,0 +1,37 @@
+
+
+Processing SayHelloController#index (for 127.0.0.1 at 2010-03-23 01:05:58) [GET]
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/say_hello/index]
+
+
+Processing SayHelloController#bye (for 127.0.0.1 at 2010-03-23 01:06:09) [GET]
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/say_hello/bye]
+
+
+Processing SayHelloController#index (for 127.0.0.1 at 2010-03-23 01:07:00) [GET]
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/say_hello/]
+
+
+Processing SayHelloController#index (for 127.0.0.1 at 2010-03-23 01:47:51) [GET]
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/say_hello/]
+
+
+Processing SayHelloController#index (for 127.0.0.1 at 2010-03-23 01:54:56) [GET]
+
+ActionView::MissingTemplate (Missing template say_hello/index.erb in view path app/views):
+  <internal:prelude>:8:in `synchronize'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby19/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SayHelloController#index (for 127.0.0.1 at 2010-03-23 01:55:40) [GET]
+Rendering say_hello/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/say_hello/]
+
+
+Processing SayHelloController#index (for 127.0.0.1 at 2010-03-23 03:24:55) [GET]
+Rendering say_hello/index
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/say_hello/]
